@@ -1,0 +1,13 @@
+//Dado a la cantidad de trabajo que tengo no pude terminar las pantallas estipuladas en el pdf de prueba y solo pude realizar la primera de ella
+//De igual manera en esta primera pantalla se puede observar varias caracteristicas de los criterios a evaluar 
+
+//Mejoras
+//1.-Se podria crear un modulo que inyecte la instancia de firebase como se hace actualmente como el ejemplo de retrofit
+//2.-Se podrian implementar caos de uso para todas esas funciones independientes que se agregaron al apartado de Utils.kt
+//3.-Se podria buscar un caso de uso con valores tipo T para de alguna manera homologar los consumos de APIs y no crear un caso de uso completamente
+//igual con pocos cambios para los demas consumos
+//4.-En caso de que se extienda muchos las inyecciones a los viewModel de los casos de uso podriamos crear un Dataclass 
+//recopilando por similitudes de los casos de uso en un mismo dataclass y tener una mejor administracion
+//5.-Tambien se podria agregar una clase que herede de Fragment en la cual habilitemos todos estos dialogFragment que pueden ser genericos
+//como el mostrar errores, avisos, mensajes exitosos, etc. para que en la creacion de los Fragment se pueda administrar esta nueva clase que hereda 
+//de fragment para tener construidos y administrados estos dialogs recurrentes sin tener que declararlos e instanciarlos todo el tiempo en cada fragment
