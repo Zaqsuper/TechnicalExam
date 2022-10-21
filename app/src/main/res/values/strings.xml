@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Technical Exam</string>
+
+    <string name="title_profile">Perfil</string>
+    <string name="title_movies">Peliculas</string>
+    <string name="title_map">Mapa</string>
+    <string name="title_camera">Camara</string>
+
+    <string name="profile_actor_name">Nombre del Actor</string>
+    <string name="profile_actor_id">Id del Actor</string>
+    <string name="profile_actor_popularity">Popularity: </string>
+    <string name="profile_actor_known_for">Conocido por: </string>
+</resources>
